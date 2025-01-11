@@ -60,7 +60,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .links {
@@ -80,6 +80,12 @@ main {
 .links:focus {
     background-color: var(--secondary-green);
     color: var(--primary-grey-800);
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
 }
 
 .info-name {

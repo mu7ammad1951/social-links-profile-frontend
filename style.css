@@ -60,7 +60,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .links {
@@ -76,8 +76,7 @@ main {
     transition: color 0.25s;
 }
 
-.links:hover, 
-.links:focus {
+.links:hover {
     background-color: var(--secondary-green);
     color: var(--primary-grey-800);
 }
@@ -86,11 +85,14 @@ main {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+    justify-content: center;
+    align-items: center;;
 }
 
 .info-name {
     font-weight: bold;
     font-size: 1.5rem;
+    padding: 6px;
 }
 
 .info-location{
